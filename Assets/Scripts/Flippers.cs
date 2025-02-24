@@ -1,11 +1,11 @@
-using UnityEditor.UI;
+//using UnityEditor.UI;
 using UnityEngine;
 
 public class Flippers : MonoBehaviour
 {
     private Rigidbody2D rb;
     private KeyCode hotkey;
-    public float force = 90f;
+    public float force = 180f;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
